@@ -28,7 +28,7 @@ for i in range(num_episodes):
         dic[str(s)] = count
         count += 1
         Q = np.append(Q,np.zeros([1, env.action_space.n]),axis = 0)
-    rAll = 0 str(s)
+    rAll = 0 
     
     for j in range(3000):
         # if not dic.get(str(s)):
